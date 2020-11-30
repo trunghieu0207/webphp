@@ -28,7 +28,7 @@ class User extends Database{
         $result= mysqli_query($connect, $query);
         if(!$result){
             echo "<script>
-                    window.location = 'login-register.php';
+                    window.location = '../../login-register.php';
                 </script>";
         }
     }

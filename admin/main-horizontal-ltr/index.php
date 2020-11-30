@@ -3,7 +3,7 @@ include("../../source/adminlogin.php");
 $p=new User();
 if(empty($_SESSION["username"])||empty($_SESSION["password"])){
 	echo "<script>
-	window.location = 'login-register.php';
+	window.location = '../../login-register.php';
 </script>";
 }
 else{
@@ -1143,4 +1143,4 @@ else{
 	<script src="js/demo.js"></script>	
 	
 </body>
-</php>
+</html>

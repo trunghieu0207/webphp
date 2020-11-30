@@ -1,7 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="880215d9-98a7-4fba-bbae-7af86bffa7f0" name="Default Changelist" comment="" />
+    <list default="true" id="880215d9-98a7-4fba-bbae-7af86bffa7f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_order_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/sourceadmin/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/box_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_axis.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_axis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_c3_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_chartist.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_chartist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_chartjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_pie_doughnut.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_echarts_pie_doughnut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_flot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_morris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_peity.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/charts_peity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_animations.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_animations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_bootstrap_switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_bootstrap_switch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_date_paginator.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_date_paginator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_media_advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_media_advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_nestable.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_nestable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_portlet_draggable.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_portlet_draggable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_rangeslider.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_rangeslider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_rating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_sweatalert.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/component_sweatalert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_app.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_app_chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_app_chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_userlist_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/contact_userlist_grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_products_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ecommerce_products_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extension_fullscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extension_fullscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extension_pace.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extension_pace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_app_ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_app_ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_taskboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/extra_taskboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_code_editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_code_editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_dropzone.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_dropzone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_editor_markdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_editor_markdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_editors.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_editors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_general.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_mask.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_mask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_wizard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_wizard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_xeditable.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/forms_xeditable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_cryptocoins.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_cryptocoins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_flag.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_flag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_fontawesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_fontawesome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_glyphicons.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_glyphicons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_material.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_material.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_simpleline.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_simpleline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_themify.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_themify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/icons_weather.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/invoicelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/invoicelist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/layout_boxed.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/layout_boxed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/layout_fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/layout_fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/mailbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/map_google.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/map_google.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/map_vector.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/map_vector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_custom_scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_custom_scroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_lightbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_lightbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/sample_pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_editable.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_editable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/tables_simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_badges.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_badges.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_border_utilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_border_utilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_color_utilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_color_utilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_dropdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_dropdown_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_dropdown_grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_progress_bars.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_progress_bars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_ribbons.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_ribbons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_sliders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_sliders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_tab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_timeline_horizontal.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_timeline_horizontal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/ui_typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_social.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_social.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_statistic.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_statistic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main-horizontal-ltr/pages/widgets_weather.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/adminlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/adminlogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/clsuser.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/clsuser.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +123,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ks3spjjlTgfGq14jYwHRbxiBJZ" />
   <component name="ProjectViewState">
@@ -18,14 +135,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/main-horizontal-ltr/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\webphp\admin\main-horizontal-ltr\pages" />
       <recent name="C:\xampp\htdocs\webphp" />
     </key>
   </component>
@@ -37,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606475681168</updated>
-      <workItem from="1606475682248" duration="17976000" />
+      <workItem from="1606475682248" duration="18454000" />
+      <workItem from="1606572512935" duration="9151000" />
     </task>
     <servers />
   </component>
@@ -53,9 +173,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="237" width="747" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606535189962" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606567347426">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606573987964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606567347426" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606573987964" />
   </component>
 </project>

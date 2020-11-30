@@ -36,10 +36,11 @@ class Users2 extends Database
 		{
 		    while ($row = mysqli_fetch_array($result)) {
 		        $_SESSION['id'] = $row['id'];
-//		        $_SESSION['']
+		        $_SESSION['username'] = $row['username'];
+		        $_SESSION['password'] = $row['password'];
+		        $_SESSION['permission'] = $row['permission'];
             }
-			$_SESSION['user']=$user;
-			if($_SESSION['user']=='admin')
+			if($row['permission'] === 'admin')
 			{				
 				header('location:admin.php');
 			}
