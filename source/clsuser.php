@@ -41,7 +41,7 @@ class Users2 extends Database
 			$_SESSION['user']=$user;
 			if($_SESSION['user']=='admin')
 			{				
-				header('location:admin.php');
+				header('location:../../index.php');
 			}
 			else
 			{
