@@ -417,7 +417,7 @@ $cartOrder = new CartOrder();
                 if ($cartOrder->orderProduct($_SESSION['cart'], $informationOrders)) {
                     echo '<script>
 					    alert("Đặt hàng thành công");
-				    </script>';i
+				    </script>';
                     echo '<script>
 					    window.location="index.php";
 				    </script>';

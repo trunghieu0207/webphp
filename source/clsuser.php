@@ -2,15 +2,16 @@
 require_once("class.php");
 class Users2 extends Database
 {
-	function register($user,$pass,$email)
+	function register($user,$pass,$email, $fullname)
 	{
 		$link=$this->connect_database();
 		$sql="select * from users where username='$user'";
         $result=mysqli_query($link,$sql);
-		if(!$result)
+        $numberUser = mysqli_num_rows($result);
+		if($numberUser == 0)
 		{
 			$pass=md5($pass);			
-			$sql2="insert into users(username,password,email) values('$user','$pass','$email')";			
+			$sql2="insert into users(username,password,email, permission, `full-name`) values('$user','$pass','$email', 'customer', '$fullname')";
 			if(mysqli_query($link,$sql2))
 			{
 				echo"<script>alert('User created');</script>";
@@ -36,12 +37,13 @@ class Users2 extends Database
 		{
 		    while ($row = mysqli_fetch_array($result)) {
 		        $_SESSION['id'] = $row['id'];
-//		        $_SESSION['']
+		        $_SESSION['username'] = $row['username'];
+		        $_SESSION['password'] = $row['password'];
+		        $_SESSION['permission'] = $row['permission'];
             }
-			$_SESSION['user']=$user;
-			if($_SESSION['user']=='admin')
+			if($row['permission'] === 'admin')
 			{				
-				header('location:admin.php');
+				header('location:../../index.php');
 			}
 			else
 			{
