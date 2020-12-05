@@ -43,7 +43,7 @@ class Users2 extends Database
             }
 			if($row['permission'] === 'admin')
 			{				
-				header('location:admin.php');
+				header('location:../../index.php');
 			}
 			else
 			{
