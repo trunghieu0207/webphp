@@ -1,5 +1,5 @@
 <?php
-class Database
+class Database2
 {
     function connect_database()
     {
@@ -129,8 +129,8 @@ class Database
                       <div class="fx-overlay scrl-up">						
                           <ul class="fx-info">
                               <li><a class="btn btn-rounded btn-outline image-popup-vertical-fit" href="../../../assets/img/product_images/'.$row["image"].'"><i class="mdi mdi-magnify"></i></a></li>
-                              <li><a class="btn btn-rounded btn-outline" href="javascript:void(0);"><i class="mdi mdi-delete"></i></a></li>
-                              <li><a class="btn btn-rounded btn-outline" href="javascript:void(0);"><i class="mdi mdi-settings"></i></a></li>
+                              <li><a class="btn btn-rounded btn-outline" href="ecommerce_products_edit.php?id='.$row["id"].'"><i class="mdi mdi-delete"></i></a></li>
+                              <li><a class="btn btn-rounded btn-outline" href="ecommerce_products_edit.php?id='.$row["id"].'"><i class="mdi mdi-settings"></i></a></li>
                           </ul>
                       </div>
                   </div>
@@ -138,7 +138,7 @@ class Database
                       <div class="product-text">
                           <h2 class="pro-price text-blue">'.$string.'</h2>
                           <h4 class="box-title mb-0">'.$row["name"].'</h4>
-                          <small class="text-muted db">Lorem Ipsum Dummy Text</small>
+                          
                       </div>
                   </div>
               </div>
@@ -155,8 +155,8 @@ class Database
 		$i=mysqli_num_rows($result);
 		if($i>0)
 		{
-			echo ' <select class="form-control" data-placeholder="Choose a Category" tabindex="1">';
-			echo ' <option value="0">Moi chon cong ty</option>';
+			echo ' <select name="sp_type" class="form-control" data-placeholder="Choose a Category" tabindex="1">';
+			echo ' <option value="0">Moi chon loại sản phẩm</option>';
 			while($row=mysqli_fetch_array($result))
 			{
 				$id=$row['id'];
@@ -169,6 +169,40 @@ class Database
 		{
 			echo 'dang cap nhat du lieu';
 		}
+    }
+    
+    function upimage($local,$folder,$name)
+	{
+		if($local!='' && $name!='')
+		{
+			$name=$folder."/".$name;
+			if(move_uploaded_file($local,$name))
+			{
+				return 1;
+			}
+			else
+			{
+				return 0;
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	function crud($sql)
+	{
+		$link=$this->connect_database();
+        $result=mysqli_query($link, $sql);
+        
+		if(!$result)
+		{
+			echo 'Thao tác không thành công';
+		}
+		else
+		{
+			echo"<script>alert('Đã thực hiện');</script>";
+		}		
 	}
 }
 ?>
