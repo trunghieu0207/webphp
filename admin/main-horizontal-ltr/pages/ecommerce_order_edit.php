@@ -402,7 +402,7 @@ $order = new Order();
                             <select name="status" id="status" class="form-control">
                                 <option value="onhold" <?php if ($orderDetail['status'] == 'onhold') { echo 'selected'; } ?>>Tạm giữ</option>
                                 <option value="inprocess" <?php if ($orderDetail['status'] == 'inprocess') { echo 'selected'; } ?>>Đang chờ xử lý</option>
-                                <option value="success" <?php if ($orderDetail['status'] == 'sucess') { echo 'selected'; } ?>>Thành công</option>
+                                <option value="success" <?php if ($orderDetail['status'] == 'success') { echo 'selected'; } ?>>Thành công</option>
                             </select>
                         </div>
                         <label class="col-form-label col-md-1">Số điện thoại</label>
@@ -424,6 +424,28 @@ $order = new Order();
                         <label class="col-form-label col-md-1">Cập nhât</label>
                             <button type="submit" class="btn btn-primary mb-5" name="btn-update">Cập nhât</button>
                     </div>
+
+                    <?php
+                    if (isset($_REQUEST['btn-update'])) {
+                        $data = [];
+                        $data['address'] = $_REQUEST['address'];
+                        $data['status'] = $_REQUEST['status'];
+                        $data['phone'] = $_REQUEST['phone'];
+                        $data['note'] = $_REQUEST['note'];
+                        if ($order->updateOrder($data, $id)) {
+                            echo '<div class="alert alert-success">
+                                    Cập nhật thành công
+                                </div>
+                                <script language="javascript">
+                                window.location="ecommerce_order_edit.php?id='.$id.'";
+                            </script>';
+                        } else {
+                            echo '<div class="alert alert-success">
+                                    Thất bại
+                                </div>';
+                        }
+                    }
+                    ?>
                 </form>
             </div>
         </div>

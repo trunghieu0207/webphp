@@ -42,7 +42,7 @@ class CartOrder extends Database {
      */
     private function insertOrderDetail(array $products, int $idOrder): bool {
         $connect = $this->connect_database();
-        $query = "INSERT INTO `ordeers-detail` (id_order, id_product, amount, price) VALUES ";
+        $query = "INSERT INTO `orders-detail` (id_order, id_product, amount, price) VALUES ";
         $stringValue = '';
 
         foreach ($products as $id => $product) {

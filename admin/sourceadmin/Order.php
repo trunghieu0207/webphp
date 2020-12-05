@@ -1,7 +1,11 @@
 <?php
 require 'class.php';
 class Order extends Database {
-    public function loadOrder() {
+
+    /**
+     * @return array
+     */
+    public function loadOrder(): array {
         $connect = $this->connect_database();
         $query = "SELECT * FROM orders";
         $result = mysqli_query($connect, $query);
@@ -17,7 +21,11 @@ class Order extends Database {
         return $data;
     }
 
-    public function getDetailOrder($id) {
+    /**
+     * @param string $id
+     * @return array
+     */
+    public function getDetailOrder(string $id): array {
         $connect = $this->connect_database();
         $query = "SELECT * from orders o INNER JOIN users u ON o.id_user = u.id where o.id={$id}";
         $result = mysqli_query($connect,$query);
@@ -38,7 +46,22 @@ class Order extends Database {
         return $data;
     }
 
-    public function updateOrder($data) {
+    /**
+     * @param array $data
+     * @param string $id
+     * @return bool
+     */
+    public function updateOrder(array $data, string $id): bool {
         $connect = $this->connect_database();
+        $note = $data['note'];
+        $status = $data['status'];
+        $address = $data['address'];
+        $phone = $data['phone'];
+        $query = "UPDATE orders SET note='${note}', status='${status}', address='${address}', phone='${phone}' WHERE id = ${id};";
+        if (mysqli_query($connect, $query)) {
+            return 1;
+        }
+
+        return 0;
     }
 }

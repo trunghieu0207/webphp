@@ -1,7 +1,7 @@
 ﻿<?php
 include("../../source/adminlogin.php");
 $p=new User();
-if(empty($_SESSION["username"])||empty($_SESSION["password"])){
+if(empty($_SESSION["username"])||empty($_SESSION["password"]) || empty($_SESSION['permission'])){
 	echo "<script>
 	window.location = '../../login-register.php';
 </script>";
@@ -9,7 +9,8 @@ if(empty($_SESSION["username"])||empty($_SESSION["password"])){
 else{
 	$username=$_SESSION["username"];
 	$password=$_SESSION["password"];
-	$p->confirm($username,$password);
+	$permission = $_SESSION['permission'];
+	$p->confirm($username,$password, $permission);
 }
 ?>
 <!DOCTYPE html>

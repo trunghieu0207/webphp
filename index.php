@@ -45,7 +45,7 @@
                         
                     </div>
                     <div class="same-language-currency use-style">
-                        <a href="#"> VNĐ </a>
+                        <a href="#"> <?= isset($_SESSION['fullname']) ? $_SESSION['fullname'] : ''  ?> </a>
                         
                     </div>
                     <div class="same-language-currency">

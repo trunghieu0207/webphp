@@ -5,19 +5,6 @@
  $user=new User();
  include('source/clsuser.php');
 $p=new Users2();
-if(isset($_POST['login']))
-{
-	$user=$_REQUEST['user-name'];
-	$pass=$_REQUEST['user-password'];
-	if($user!='' && $pass!='')
-	{
-		$p->login($user,$pass);
-	}
-	else
-	{
-		echo 'Nhập username và password';
-	}	
-}
  ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -250,6 +237,7 @@ if(isset($_POST['login']))
                                         <input type="text" name="user-name" placeholder="Username">
                                         <input type="password" name="user-password" placeholder="Password">
                                         <input name="user-email" placeholder="Email" type="email">
+                                        <input name="user-fullname" placeholder="Nhập ten đi mài" type="text">
                                         <div class="button-box">
                                             <input name="Register" type="submit" Value="Register">
                                         </div>
@@ -259,9 +247,10 @@ if(isset($_POST['login']))
 											$user=$_REQUEST['user-name'];
 											$pass=$_REQUEST['user-password'];
 											$email=$_REQUEST['user-email'];
-											if($user!='' && $pass!='')
+											$fullname=$_REQUEST['user-fullname'];
+											if($user!='' && $pass!='' && $fullname !== '')
 											{
-												$p->register($user,$pass,$email);
+												$p->register($user,$pass,$email, $fullname);
 											}
 											else
 											{

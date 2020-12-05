@@ -2,15 +2,16 @@
 require_once("class.php");
 class Users2 extends Database
 {
-	function register($user,$pass,$email)
+	function register($user,$pass,$email, $fullname)
 	{
 		$link=$this->connect_database();
 		$sql="select * from users where username='$user'";
         $result=mysqli_query($link,$sql);
-		if(!$result)
+        $numberUser = mysqli_num_rows($result);
+		if($numberUser == 0)
 		{
 			$pass=md5($pass);			
-			$sql2="insert into users(username,password,email) values('$user','$pass','$email')";			
+			$sql2="insert into users(username,password,email, permission, `full-name`) values('$user','$pass','$email', 'customer', '$fullname')";
 			if(mysqli_query($link,$sql2))
 			{
 				echo"<script>alert('User created');</script>";
